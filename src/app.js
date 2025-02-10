@@ -54,7 +54,7 @@ const doFamilyTask = async (cloudClient) => {
     if (familyInfoResp && familyInfoResp.length > 0) {
         const firstFamily = familyInfoResp[0];
         const { familyId } = firstFamily;
-        const res = await cloudClient.familyUserSign(familyId);
+        const res = await cloudClient.familyUserSign(117819101357885);
         result.push(
             "家庭任务" +
             `${res.signStatus? "已经签到过了，" : ""}签到获得${
