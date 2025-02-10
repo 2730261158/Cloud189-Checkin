@@ -1,6 +1,6 @@
 # Cloud189Checkin
 
-天翼网盘自动签到（随机容量) 和抽奖（两次，每次 50M，共 150M）获取空间，家庭空间签到（随机容量）。
+天翼网盘自动签到（随机容量) 和家庭空间签到（随机容量）获取空间。
 
 # 重要说明！！！
 
@@ -10,9 +10,6 @@
 
 - [GitHub Action 运行](#GitHubAction运行)
 - [本地运行](#本地运行)
-- [其他环境集成](#其他环境集成)
-- [交流群](#交流群)
-- [更新内容](#更新内容)
 
 ## GitHub Action 运行
 
@@ -68,7 +65,7 @@
 1. 点击**Action**，再点击**I understand my workflows, go ahead and enable them**
 2. 给自己仓库点个 start 或者修改任意文件后提交一次或者手动点击运行
    ![](http://tu.yaohuo.me/imgs/2020/06/34ca160c972b9927.png)
-3. 每天早上 10 点执行任务
+3. 每天早上 6:25 执行任务
 
 ### 查看运行结果
 
@@ -116,13 +113,3 @@ TY_ACCOUNTS=[{"userName":"userName","password":"password"}]
 ```bash
 npm start
 ```
-
-## 其他环境集成
-
-我已经把天翼网盘的相关 API 集成到[SDK](https://github.com/wes-lin/cloud189-sdk)了，有编程能力的同学可以自行拓展，集成到自己的代码环境。
-
-## 交流群
-
-![](https://cdn.jsdelivr.net/gh/wes-lin/Cloud189Checkin/image/group.jpg)
-
-## [更新内容](https://github.com/wes-lin/Cloud189Checkin/wiki/更新内容)
